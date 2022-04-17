@@ -1,10 +1,13 @@
-import SignUpForm from "../../components/SignUpForm/SignUpForm"
+import Title from "../../components/Title/Title"
+import InputForm from "../../components/InputForm/InputForm"
+import List from "../../components/List/List"
+import ListItem from "../../components/ListItem/ListItem"
 
-export default function AuthPage(props) {
+export default function MainPage(props) {
     return (
         <main>
-            <h1>AuthPage</h1>
-            <SignUpForm/>
+            <Title text="My To Do List:"/>
+            <InputForm/>
         </main>
     )
 }
